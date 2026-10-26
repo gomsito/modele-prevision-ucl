@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" font-family="sans-serif" font-size="12">
+<rect width="100%" height="100%" fill="white"/>
+<rect x="50" y="50" width="400" height="400" fill="none" stroke="#999"/>
+<line x1="50" y1="450" x2="450" y2="50" stroke="#bbb" stroke-dasharray="4"/>
+<text x="50.0" y="468" text-anchor="middle">0.0</text>
+<text x="42" y="454.0" text-anchor="end">0.0</text>
+<text x="130.0" y="468" text-anchor="middle">0.2</text>
+<text x="42" y="374.0" text-anchor="end">0.2</text>
+<text x="210.0" y="468" text-anchor="middle">0.4</text>
+<text x="42" y="294.0" text-anchor="end">0.4</text>
+<text x="290.0" y="468" text-anchor="middle">0.6</text>
+<text x="42" y="214.0" text-anchor="end">0.6</text>
+<text x="370.0" y="468" text-anchor="middle">0.8</text>
+<text x="42" y="134.0" text-anchor="end">0.8</text>
+<text x="450.0" y="468" text-anchor="middle">1.0</text>
+<text x="42" y="54.0" text-anchor="end">1.0</text>
+<polyline fill="none" stroke="#999" stroke-width="2" points="93.6,450.0 151.6,400.0 265.7,107.1 322.8,50.0 413.0,50.0"/>
+<circle cx="93.6" cy="450.0" r="6.0" fill="#999" fill-opacity="0.6"/>
+<circle cx="151.6" cy="400.0" r="7.0" fill="#999" fill-opacity="0.6"/>
+<circle cx="265.7" cy="107.1" r="5.645751311064591" fill="#999" fill-opacity="0.6"/>
+<circle cx="322.8" cy="50.0" r="4.414213562373095" fill="#999" fill-opacity="0.6"/>
+<circle cx="413.0" cy="50.0" r="4.414213562373095" fill="#999" fill-opacity="0.6"/>
+<polyline fill="none" stroke="#1f5fbf" stroke-width="2" points="88.3,450.0 151.0,405.6 263.7,100.0 340.0,50.0 407.0,50.0"/>
+<circle cx="88.3" cy="450.0" r="5.645751311064591" fill="#1f5fbf" fill-opacity="0.6"/>
+<circle cx="151.0" cy="405.6" r="7.242640687119285" fill="#1f5fbf" fill-opacity="0.6"/>
+<circle cx="263.7" cy="100.0" r="5.82842712474619" fill="#1f5fbf" fill-opacity="0.6"/>
+<circle cx="340.0" cy="50.0" r="4.0" fill="#1f5fbf" fill-opacity="0.6"/>
+<circle cx="407.0" cy="50.0" r="4.414213562373095" fill="#1f5fbf" fill-opacity="0.6"/>
+<text x="250.0" y="488" text-anchor="middle">Probabilité prévue</text>
+<text x="14" y="250.0" text-anchor="middle" transform="rotate(-90 14 250.0)">Fréquence observée</text>
+<text x="60" y="70" fill="#1f5fbf">● modèle</text>
+<text x="60" y="86" fill="#999">● marché (cotes normalisées)</text>
+</svg>
