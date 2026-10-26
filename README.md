@@ -45,6 +45,8 @@ Python 3.10+ et rien d'autre (pas de dépendance externe).
 | `version_methode` | version de la méthode utilisée |
 | `resultat_90min` | issue (1 / N / 2) et score, ajoutés après le match |
 
+`data/marche_cloture_J2-J3.csv` comble les journées 2 et 3, qui n'ont pas été archivées avant les matchs. Il contient seulement les cotes de clôture Betclic, Winamax et Unibet, relevées après coup sur Flashscore, et le résultat. Ces 36 matchs servent à évaluer le marché. Ils ne comptent jamais dans la comparaison modèle contre marché, puisque aucune prévision n'a été faite avant ces matchs.
+
 ## Limites
 
 - Petit échantillon : les écarts au marché ne deviendront significatifs qu'après plusieurs centaines de matchs.

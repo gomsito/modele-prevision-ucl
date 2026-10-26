@@ -23,3 +23,9 @@ Bilan à produire : taux de bons choix (tous / retenus), couverture, réussite p
 - Piège outil identifié : `cotes.py` applique par défaut `--min-cote 1.30`, ce qui **supprime la cote du favori** sur les matchs très déséquilibrés (Bayern 1.06, Man United 1.06 absents à la première collecte). Toute collecte 1N2 doit utiliser `--min-cote 0`.
 - Contrôle Elo impossible quand un club n'est pas classé par ClubElo (Sabah FK le 10/09).
 - Rappel v0.2 confirmé : sur Bayern-Bodø et Man United-Sabah, la case « Autre » du marché score exact pèse 18,1 % et 14,3 %. Le score modal y est donné comme projection indicative, pas comme résultat d'une distribution complète.
+
+## Note du 2026-10-26 : trou J2-J3 et réparation de l'archive
+- **J2 (13-14/10) et J3 (20-21/10) non archivées avant les matchs.** Aucune prévision n'est reconstituée après coup. Les cotes de clôture Betclic/Winamax/Unibet ont été relevées sur Flashscore le 26/10 dans `marche_cloture_J2-J3.csv` (même consensus : normalisation par book, puis moyenne). Elles servent seulement à évaluer le marché, jamais le modèle.
+- **Réparation de format.** Les 6 lignes du 10/09 (J1c) contenaient une virgule sans guillemets dans `mode`, ce qui décalait toutes les colonnes d'un cran. Le champ a été recollé et le fichier réécrit en CSV correctement échappé. Aucune probabilité n'a été modifiée. La sauvegarde d'avant est dans `archive_previsions.csv.bak-2026-10-26`.
+- Résultats 90 min des 6 matchs J1c ajoutés (Flashscore).
+- **À partir de la J4 (03-04/11), retour au protocole** : archivage avant le coup d'envoi.
