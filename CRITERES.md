@@ -29,3 +29,9 @@ Bilan à produire : taux de bons choix (tous / retenus), couverture, réussite p
 - **Réparation de format.** Les 6 lignes du 10/09 (J1c) contenaient une virgule sans guillemets dans `mode`, ce qui décalait toutes les colonnes d'un cran. Le champ a été recollé et le fichier réécrit en CSV correctement échappé. Aucune probabilité n'a été modifiée. La sauvegarde d'avant est dans `archive_previsions.csv.bak-2026-10-26`.
 - Résultats 90 min des 6 matchs J1c ajoutés (Flashscore).
 - **À partir de la J4 (03-04/11), retour au protocole** : archivage avant le coup d'envoi.
+
+## v0.4-auto (2026-11-03)
+- **Archivage automatique** par la tâche planifiée `ucl-archivage-auto` (mardi au jeudi, 11h30), via `archiver.py` : consensus 3 books (normalisation par book puis moyenne), au moins 2 books, matchs déjà commencés jamais archivés.
+- **Ajustement manuel = 0** : l'automate n'a pas de fait postérieur à la collecte, donc p_finale = marché (même règle qu'en v0.3). Sur ces lignes, modèle et marché sont identiques par construction.
+- Cotes : scraper-cotes en priorité ; si le réseau bloque les sites de paris (pare-feu Fortinet constaté le 26/10), cotes avant-match Betclic/Winamax/Unibet relevées sur Flashscore. La source est écrite dans `sources`.
+- Elo ClubElo toujours en contrôle seulement.

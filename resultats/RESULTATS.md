@@ -1,6 +1,6 @@
 # Résultats
 
-Généré le 26/10/2026 par `evaluer.py` sur 18 matchs joués.
+Généré le 27/10/2026 par `evaluer.py` sur 18 matchs joués.
 
 | Série | Brier (↓) | Log-loss (↓) | Brier skill vs 1/3 |
 |---|---|---|---|
