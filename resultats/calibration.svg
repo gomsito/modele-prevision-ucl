@@ -14,17 +14,17 @@
 <text x="42" y="134.0" text-anchor="end">0.8</text>
 <text x="450.0" y="468" text-anchor="middle">1.0</text>
 <text x="42" y="54.0" text-anchor="end">1.0</text>
-<polyline fill="none" stroke="#999" stroke-width="2" points="95.1,428.9 154.3,395.9 254.9,125.0 326.2,130.0 406.6,50.0"/>
-<circle cx="95.1" cy="428.9" r="7.358898943540674" fill="#999" fill-opacity="0.6"/>
-<circle cx="154.3" cy="395.9" r="9.082762530298218" fill="#999" fill-opacity="0.6"/>
-<circle cx="254.9" cy="125.0" r="7.0" fill="#999" fill-opacity="0.6"/>
-<circle cx="326.2" cy="130.0" r="5.23606797749979" fill="#999" fill-opacity="0.6"/>
+<polyline fill="none" stroke="#999" stroke-width="2" points="100.1,422.4 152.9,396.7 255.2,130.0 328.4,130.0 406.6,50.0"/>
+<circle cx="100.1" cy="422.4" r="8.385164807134505" fill="#999" fill-opacity="0.6"/>
+<circle cx="152.9" cy="396.7" r="9.70820393249937" fill="#999" fill-opacity="0.6"/>
+<circle cx="255.2" cy="130.0" r="7.47213595499958" fill="#999" fill-opacity="0.6"/>
+<circle cx="328.4" cy="130.0" r="6.16227766016838" fill="#999" fill-opacity="0.6"/>
 <circle cx="406.6" cy="50.0" r="5.0" fill="#999" fill-opacity="0.6"/>
-<polyline fill="none" stroke="#1f5fbf" stroke-width="2" points="93.0,426.5 153.9,398.7 254.5,120.6 331.4,150.0 403.6,50.0"/>
-<circle cx="93.0" cy="426.5" r="7.123105625617661" fill="#1f5fbf" fill-opacity="0.6"/>
-<circle cx="153.9" cy="398.7" r="9.244997998398398" fill="#1f5fbf" fill-opacity="0.6"/>
-<circle cx="254.5" cy="120.6" r="7.123105625617661" fill="#1f5fbf" fill-opacity="0.6"/>
-<circle cx="331.4" cy="150.0" r="5.0" fill="#1f5fbf" fill-opacity="0.6"/>
+<polyline fill="none" stroke="#1f5fbf" stroke-width="2" points="99.2,420.4 152.6,398.9 254.9,126.2 331.0,138.9 403.6,50.0"/>
+<circle cx="99.2" cy="420.4" r="8.196152422706632" fill="#1f5fbf" fill-opacity="0.6"/>
+<circle cx="152.6" cy="398.9" r="9.855654600401044" fill="#1f5fbf" fill-opacity="0.6"/>
+<circle cx="254.9" cy="126.2" r="7.58257569495584" fill="#1f5fbf" fill-opacity="0.6"/>
+<circle cx="331.0" cy="138.9" r="6.0" fill="#1f5fbf" fill-opacity="0.6"/>
 <circle cx="403.6" cy="50.0" r="5.0" fill="#1f5fbf" fill-opacity="0.6"/>
 <text x="250.0" y="488" text-anchor="middle">Probabilité prévue</text>
 <text x="14" y="250.0" text-anchor="middle" transform="rotate(-90 14 250.0)">Fréquence observée</text>
