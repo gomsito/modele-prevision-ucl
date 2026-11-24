@@ -1,14 +1,17 @@
 # Résultats
 
-Généré le 05/11/2026 par `evaluer.py` sur 36 matchs joués.
+Généré le 24/11/2026 par `evaluer.py` sur 36 matchs joués.
 
-| Série | Brier (↓) | Log-loss (↓) | Brier skill vs 1/3 |
-|---|---|---|---|
-| Modèle | 0.3839 | 0.6929 | +42.4% |
-| Marché | 0.3789 | 0.6854 | +43.2% |
-| Uniforme (1/3 partout) | 0.6667 | 1.0986 | 0 |
+| Série | Brier (↓) | RPS (↓) | Log-loss (↓) | Brier skill vs 1/3 |
+|---|---|---|---|---|
+| Modèle | 0.3839 | 0.1470 | 0.6929 | +42.4% |
+| Marché | 0.3789 | 0.1450 | 0.6854 | +43.2% |
+| Uniforme (1/3 partout) | 0.6667 | 0.2639 | 1.0986 | 0 |
 
 **Modèle − marché (Brier)** : +0.0049, IC 95 % bootstrap [+0.0018 ; +0.0087].
+
+**Modèle − marché (RPS)** : +0.0020, IC 95 % bootstrap [+0.0007 ; +0.0036].
+
 Négatif = le modèle fait mieux que le marché. Si l'intervalle contient 0, la différence n'est pas significative.
 
 ## Choix principal
